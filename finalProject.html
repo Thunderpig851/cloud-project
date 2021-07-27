@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Resume</title>
+</head>
+<style>
+  #head {
+    color: white;
+    
+  }
+  body {
+    background-image: linear-gradient(to bottom right,rgb(4, 129, 129),rgb(78, 189, 170),rgb(102, 102, 102));
+    padding-left: 20px;
+    }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+  }
+  h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+  }
+  h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:whitesmoke;
+  }
+</style>
+<body>
+  <div id="head">
+  <h1 id="child" style="text-align: center;">Build Your Resume<br><br></h1>
+  <h2 style="text-align: center;">WEB-115-002<br>Cameron Estep</h2>
+    <form action="" name="resumeForm" style="margin-left: 3rem;">
+    </div>
+  <h2><br>Personal Information</h2>
+      <p>
+        <label for="fullName">Enter your full name: </label><br>
+        <input type="text" name="fullName" id="fullName" size="70" >
+      </p>
+      <p>
+        <label for="fullAddress">Enter your full address: </label><br>
+        <input type="text" name="fullAddress" id="fullAddress" size="70" >
+      </p>
+      <p>
+        <label for="telePhone">Enter your phone number: </label><br>
+        <input type="tel" name="telePhone" id="telePhone" size="70" >
+      </p>
+      <p>
+        <label for="email">Enter your E-mail: </label><br>
+        <input type="email" name="email" id="email" size="70"> 
+      </p>
+      <p>
+        <label for="website">Enter your Social Media: </label><br>
+        <input type="text" name="social" id="social" size="70"> 
+      </p>
+      <p>
+        <label for="personalInfo">Enter your personal skills: </label><br>
+        <textarea name="personalInfo" id="personalInfo" cols="72" rows="4" ></textarea>
+      </p>
+      <p>
+        <label for="careerSkills">Enter your technical skill set: </label><br>
+        <textarea name="careerSkills" id="careerSkills" cols="72" rows="4" ></textarea>
+      </p>
+      <p>
+        <label for="educationDeets">Enter your education details: </label><br>
+        <textarea name="educationDeets" id="educationDets" cols="72" rows="4" ></textarea>
+      </p>
+   <h2>Employment History</h2>
+      <p>
+        <label for="startDate">Enter the start date for this emplyment period: </label><br>
+        <input type="date" name="startDate" id="startDate" value="">
+      </p>
+      <p>
+        <label for="endDate">Enter the end date for employment period: </label><br>
+        <input type="date" name="endDate" id="endDate" value="">
+      </p>
+       <p>
+        <label for="employment">Enter prior work experience:</label><br>
+        <textarea name="employment" id="employment" cols="72" rows="10"></textarea>
+       </p>
+       <p>
+        <label for="startDate">Enter start date for this employment period: </label><br>
+        <input type="date" name="startDate" id="startDate" value="">
+      </p>
+      <p>
+        <label for="endDate">Enter the end date for this employment period: </label><br>
+        <input type="date" name="endDate" id="endDate" value="">
+      </p>
+       <p>
+        <label for="employment">Enter prior work experience:</label><br>
+        <textarea name="employment" id="employment" cols="72" rows="10"></textarea>
+       </p>
+       <p>
+        <label for="startDate">Enter start date for this employment period: </label><br>
+        <input type="date" name="startDate" id="startDate" value="">
+      </p>
+      <p>
+        <label for="endDate">Enter the end date for this employment period: </label><br>
+        <input type="date" name="endDate" id="endDate" value="">
+      </p>
+       <p>
+        <label for="employment">Enter prior employment experience:</label><br>
+        <textarea name="employment" id="employment" cols="72" rows="10"></textarea>
+       </p>
+      <p>
+        <input type="button" value="Create Resume" name="create" id="create" onclick="createResume()">
+    </p>
+    </form>
+    
+<script src="projectJS.js"></script> 
+</body>
+</html>
